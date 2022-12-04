@@ -1,7 +1,7 @@
-let person_name="imrAn khAn";
-let name_lower_case=person_name.toLowerCase();
-console.log("👉 name in lower case : "+name_lower_case);
-let name_upper_case=person_name.toUpperCase();
-console.log("👉 name in upper case : "+name_upper_case);
-let title=person_name.split(" ").map(w=>w.charAt(0).toUpperCase()+w.slice(1).toLowerCase()).join(" ");
-console.log("👉 name in title case : "+title);
+var name1 = prompt("Enter Your Name")
+
+document.write (name1.toLowerCase() + "<br>")
+
+document.write (name1.toUpperCase() + "<br>")
+
+document.write (name1[0].toUpperCase()+name1.slice(1))
